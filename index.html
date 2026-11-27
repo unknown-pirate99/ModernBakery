@@ -1,0 +1,532 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modern Bakery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__container">
+          <nav class="header__nav">
+            <a href="./shit.html">
+              <img src="./images/logo.svg" alt="Logo" />
+            </a>
+            <ul class="header__menu">
+              <li>
+                <a class="true-link" href="#tradition-section"
+                  >New Traditions</a
+                >
+              </li>
+              <li>
+                <a class="true-link" href="#chefs-section">Our Cookers</a>
+              </li>
+              <li>
+                <a class="true-link" href="#formats">Formates</a>
+              </li>
+              <li>
+                <a class="true-link" href="#contacts">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <button
+            type="button"
+            class="header__button call-button modal-btn-open"
+          >
+            Book a call
+          </button>
+          <button class="header__burger menu-btn-open" type="button">
+            <svg width="24" height="24">
+              <use href="./images/sprite.svg#icon-menu"></use>
+            </svg>
+          </button>
+          <div class="mobile-menu">
+            <button class="mobile-menu__btn-close menu-btn-close" type="button">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="hero-section">
+        <!-- sec1-->
+        <div class="container">
+          <h1 class="hero-section__title">
+            <span class="text-brand">Modern</span> bakery
+          </h1>
+          <button
+            type="button"
+            class="hero-section__button call-button modal-btn-open"
+          >
+            Book a call
+          </button>
+        </div>
+      </section>
+      <section class="advantages-section">
+        <div class="container">
+          <h2 class="visually-hidden">Our Advantages</h2>
+          <ul class="advantages-section__list">
+            <li class="advantages-section__item">High Rank</li>
+            <li class="advantages-section__item">Budget</li>
+            <li class="advantages-section__item">Exprienced team</li>
+          </ul>
+        </div>
+      </section>
+      <section class="tradition-section section" id="tradition-section">
+        <!-- sec2-->
+        <div class="container">
+          <div class="tradition-section__container">
+            <div class="tradition-section__content">
+              <h2 class="tradition-section__title section__title">
+                New tradition format
+              </h2>
+              <p>
+                <span class="text-brand text-bold text-uppercase"
+                  >shop bakery</span
+                >— a bakery that has taken the very best, preserving the taste
+                of traditional baked goods and the natural quality of its
+                ingredients.
+              </p>
+              <p
+                class="tradition-section__text tradition-section__text--limited"
+              >
+                We operate like the most well-known chains —
+                <span class="text-brand text-bold"
+                  >5 ​​minutes, and your order is ready.</span
+                >
+                Plus, our bakeries feature a stylish design and high-quality
+                service!
+              </p>
+            </div>
+            <div class="traditions-image">
+              <img
+                class="tradition-section__image"
+                srcset="./images/image 1560.jpg 1x, ./images/image 1560@2.jpg 2x"
+                src="./images/image 1560.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="chefs-section section" id="chefs-section">
+        <!-- sec3-->
+        <div class="container">
+          <h2
+            class="chefs-section__title section__title section__title--centered"
+          >
+            Our Best <br />
+            <span class="text-brand">Cookers</span>
+          </h2>
+          <ul class="chefs-section__list">
+            <li class="chefs-section__item">
+              <article class="chef-card">
+                <img
+                  class="chef-card__image"
+                  src="./images/image 1561.jpg"
+                  alt=""
+                />
+                <div>
+                  <h3 class="chef-card__title">Nastya</h3>
+                  <p class="chef-card__text">Hi, I’m Nastya!</p>
+                  <p class="chef-card__text">
+                    For 10 years now, I have been bringing interesting and
+                    delicious ideas to life.
+                  </p>
+                  <p class="chef-card__text">
+                    I will bake the most delicious treats for you!
+                  </p>
+                </div>
+              </article>
+            </li>
+            <li class="chefs-section__item">
+              <article class="chef-card">
+                <img
+                  class="chef-card__image"
+                  src="./images/image 1562.jpg"
+                  alt=""
+                />
+                <div>
+                  <h3 class="chef-card__title">Vlad</h3>
+                  <p class="chef-card__text">Hi, I’m Vlad!</p>
+                  <p class="chef-card__text">
+                    I have 18 years of experience in the confectionery craft.
+                    SHOP BAKERY is our passion—something we share with you every
+                    single time through our baked goods!
+                  </p>
+                </div>
+              </article>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="formats-section section" id="formats">
+        <!-- sec4-->
+        <div class="container">
+          <h2
+            class="formats-section__title section__title section__title--centered"
+          >
+            Formats
+          </h2>
+          <div class="formats-section__slider">
+            <button
+              class="formats-section__button carousel-button prev"
+              type="button"
+            >
+              <svg class="carousel-arrow" width="16" height="16">
+                <use href="./images/sprite.svg#icon-arrow"></use>
+              </svg>
+            </button>
+            <div class="formats-section__container swiper-container">
+              <ul class="formats-section__list swiper-wrapper">
+                <li class="swiper-slide">
+                  <article class="format-card">
+                    <img
+                      class="format-card__image"
+                      src="./images/walrus.jpg"
+                      alt=""
+                    />
+                    <h3 class="format-card__title">Walrus</h3>
+                    <div class="format-card__text">
+                      <p>Area: up to 120 m²</p>
+                      <p>Menu: expanded menu</p>
+                      <p>
+                        Staff: 2 sales assistants/cashiers, 2 bakers, 2 baker’s
+                        assistants, 2 waiters
+                      </p>
+                      <p>Seating: none</p>
+                    </div>
+                  </article>
+                </li>
+                <li class="swiper-slide">
+                  <article class="format-card">
+                    <img
+                      class="format-card__image"
+                      src="./images/horseshoe.jpg"
+                      alt=""
+                    />
+                    <h3 class="format-card__title">Horseshoe</h3>
+                    <div class="format-card__text">
+                      <p>Area: up to 25 m²</p>
+                      <p>Menu: most popular menu items</p>
+                      <p>
+                        Staff: 2 sales assistants/cashiers, 2 bakers, 1 baker's
+                        assistant
+                      </p>
+                      <p>Seating: none.</p>
+                    </div>
+                  </article>
+                </li>
+                <li class="swiper-slide">
+                  <article class="format-card">
+                    <img
+                      class="format-card__image"
+                      src="./images/handlbar.jpg"
+                      alt=""
+                    />
+                    <h3 class="format-card__title">Handlebar</h3>
+                    <div class="format-card__text">
+                      <p>Area: up to 15 m²</p>
+                      <p>Menu: most popular menu items</p>
+                      <p>Staff: 1 salesperson, 1 baker, 1 baker's assistant</p>
+                      <p>Seating: none.</p>
+                    </div>
+                  </article>
+                </li>
+                <li class="swiper-slide">
+                  <article class="format-card">
+                    <img
+                      class="format-card__image"
+                      src="./images/walrus.jpg"
+                      alt=""
+                    />
+                    <h3 class="format-card__title">Walrus</h3>
+                    <div class="format-card__text">
+                      <p>Area: up to 120 m²</p>
+                      <p>Menu: expanded menu</p>
+                      <p>
+                        Staff: 2 sales assistants/cashiers, 2 bakers, 2 baker’s
+                        assistants, 2 waiters
+                      </p>
+                      <p>Seating: none</p>
+                    </div>
+                  </article>
+                </li>
+                <li class="swiper-slide">
+                  <article class="format-card">
+                    <img
+                      class="format-card__image"
+                      src="./images/horseshoe.jpg"
+                      alt=""
+                    />
+                    <h3 class="format-card__title">Horseshoe</h3>
+                    <div class="format-card__text">
+                      <p>Area: up to 25 m²</p>
+                      <p>Menu: most popular menu items</p>
+                      <p>
+                        Staff: 2 sales assistants/cashiers, 2 bakers, 1 baker's
+                        assistant
+                      </p>
+                      <p>Seating: none.</p>
+                    </div>
+                  </article>
+                </li>
+                <li class="swiper-slide">
+                  <article class="format-card">
+                    <img
+                      class="format-card__image"
+                      src="./images/handlbar.jpg"
+                      alt=""
+                    />
+                    <h3 class="format-card__title">Handlebar</h3>
+                    <div class="format-card__text">
+                      <p>Area: up to 15 m²</p>
+                      <p>Menu: most popular menu items</p>
+                      <p>Staff: 1 salesperson, 1 baker, 1 baker's assistant</p>
+                      <p>Seating: none.</p>
+                    </div>
+                  </article>
+                </li>
+              </ul>
+              <div class="pagination"></div>
+            </div>
+
+            <button
+              class="formats-section__button carousel-button next"
+              type="button"
+            >
+              <svg class="carousel-arrow" width="16" height="16">
+                <use href="./images/sprite.svg#icon-arrow"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="contact-section section" id="contacts">
+        <!-- sec5-->
+        <div class="container">
+          <div class="contact-section__container">
+            <div class="contact-section__form">
+              <h2 class="contact-section__title section__title">
+                Join to our net!
+              </h2>
+              <p>Fill the form, so we'll be able to contact you!</p>
+              <form name="contact-form" autocomplete="on">
+                <div class="contact-section__form-field input">
+                  <input
+                    class="input__control"
+                    type="text"
+                    id="user-name"
+                    name="user-name"
+                    placeholder=" "
+                    required
+                  />
+                  <label class="input__label" for="user-name">Name</label>
+                </div>
+
+                <div class="contact-section__form-field input">
+                  <input
+                    class="input__control"
+                    type="tel"
+                    id="user-tel"
+                    name="user-tel"
+                    placeholder=" "
+                    required
+                  />
+                  <label class="input__label" for="user-tel"
+                    >Phone Number</label
+                  >
+                </div>
+
+                <div class="contact-section__form-field input">
+                  <input
+                    class="input__control"
+                    type="email"
+                    id="user-email"
+                    name="user-email"
+                    placeholder=" "
+                    required
+                  />
+                  <label class="input__label" for="user-email">E-mail</label>
+                </div>
+
+                <button
+                  class="call-button contact-section__button"
+                  type="submit"
+                >
+                  Book a call
+                </button>
+                <p class="form-terms">
+                  While pressing the button, I agree with
+                  <a class="form-terms__link" href="#">Privacy Policy</a>
+                </p>
+              </form>
+            </div>
+            <iframe
+              class="contact-section__map"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2735.306211847514!2d30.488698376580732!3d50.456680986915195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce637c006b2d%3A0xaf86385f19996ff0!2sSichovykh%20Striltsiv%20St%2C%2054%2C%20Kyiv%2C%2002000!5e1!3m2!1sen!2sua!4v1794410240003!5m2!1sen!2sua"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="strict-origin-when-cross-origin"
+            >
+            </iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Футер -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__container">
+          <nav class="footer__nav">
+            <a class="footer__logo-link" href="#">
+              <img class="footer__logo" src="./images/logo.svg" alt="Logo" />
+            </a>
+            <ul class="footer__menu">
+              <li class="footer__item">
+                <a class="footer__link" href="#tradition-section"
+                  >New Traditions</a
+                >
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#chefs-section">Our Cookers</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#formats">Formates</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#contacts">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <address class="footer__address">
+            <ul class="footer__address-list">
+              <li class="footer__address-item">
+                <a class="footer__contact" href="tel:0663333333" target="_blank"
+                  >0663333333</a
+                >
+              </li>
+              <li class="footer__address-item">
+                <a class="footer__contact" href="mailto:asdddddddddd@gmail.com"
+                  >asdddddddddd@gmail.com</a
+                >
+              </li>
+              <li class="footer__address-item">
+                <a
+                  class="footer__contact"
+                  href="https://maps.app.goo.gl/m6xepA4DM5YPugFy9"
+                  target="_blank"
+                  >Ukraine, Kyiv, 54 Sichovykh Striltsiv St.</a
+                >
+              </li>
+            </ul>
+            <ul class="footer__social-list">
+              <li class="footer__social-item">
+                <a class="footer__social-link" href="#" aria-label="Facebook">
+                  <svg class="footer__social-icon" width="32" height="32">
+                    <use href="./images/sprite.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer__social-item">
+                <a class="footer__social-link" href="#" aria-label="Instagram">
+                  <svg class="footer__social-icon" width="32" height="32">
+                    <use href="./images/sprite.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+            <div class="footer__info">
+              <a class="footer__privacy" href="#" target="_blank"
+                >Privacy Policy</a
+              >
+              <p class="footer__copyright">&copy; 2022 Data Secured</p>
+            </div>
+          </address>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Модальное окно -->
+    <div class="backdrop is-hidden">
+      <div class="modal">
+        <button class="modal__btn-close modal-btn-close" type="button">
+          Close
+        </button>
+        <h2 class="modal__title">Book a call</h2>
+        <p class="modal__text">Fill the form and contact with us!</p>
+        <form class="modal__form" name="contact-form" autocomplete="on">
+          <div class="modal__form-field input">
+            <input
+              class="input__control"
+              type="text"
+              id="modal-user-name"
+              name="user-name"
+              placeholder=" "
+              required
+              minlength="2"
+              maxlength="20"
+            />
+            <label class="input__label" for="modal-user-name">Name*</label>
+          </div>
+
+          <div class="modal__form-field input">
+            <input
+              class="input__control"
+              type="tel"
+              id="modal-user-tel"
+              name="user-tel"
+              placeholder=" "
+              pattern="^\+[0-9]{12}"
+              required
+            />
+            <label class="input__label" for="modal-user-tel"
+              >Phone Number*</label
+            >
+          </div>
+
+          <div class="modal__form-field input">
+            <input
+              class="input__control"
+              type="email"
+              id="modal-user-email"
+              name="user-email"
+              placeholder=" "
+              required
+            />
+            <label class="input__label" for="modal-user-email">E-mail*</label>
+          </div>
+
+          <button class="call-button modal__form-button" type="submit">
+            Book a call
+          </button>
+          <p class="modal__terms form-terms">
+            While pressing the button, I agree with
+            <a class="modal__terms-link form-terms__link" href="#"
+              >Privacy Policy</a
+            >
+          </p>
+        </form>
+      </div>
+    </div>
+
+    <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="./js/formats-slider.js"></script>
+  </body>
+</html>

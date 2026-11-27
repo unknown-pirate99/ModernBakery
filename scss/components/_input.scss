@@ -1,0 +1,37 @@
+.input {
+    position: relative;
+
+    &:nth-child(1) {
+        margin-top: 54px;
+    }
+
+    &__label {
+        position: absolute;
+        left: 42px;
+        top: 16px;
+        font-size: 16px;
+        line-height: 1.17;
+        color: var(--color-brand-dark);
+        transition: transform 0.2s;
+        user-select: none;
+        pointer-events: none;
+    }
+
+    &__control {
+        padding: 16px 42px;
+        width: 100%;
+        border: 1px solid rgba(161, 130, 104, 1);
+        border-radius: 8px;
+        background-color: transparent;
+
+        &:focus {
+            border-color: var(--color-brand-light);
+            outline: none;
+        }
+
+        &:focus+.input__label,
+        &:not(:placeholder-shown)+.input__label {
+            transform: translate(-36px, -40px);
+        }
+    }
+}
